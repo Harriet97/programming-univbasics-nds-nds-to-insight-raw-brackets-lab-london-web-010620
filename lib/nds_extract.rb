@@ -11,9 +11,9 @@ row_index = 0
     column_index = 0 
     while column_index < directors_database[row_index][:movies].length do 
       total_gross[director_name]+= directors_database[row_index][:movies][column_index][:worldwide_gross]
-      column_index += 0 
+      column_index += 1 
     end 
-    row_index += 0 
+    row_index += 1 
   end 
   total_gross
 end
