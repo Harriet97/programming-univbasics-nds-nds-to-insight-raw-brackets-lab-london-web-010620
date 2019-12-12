@@ -5,7 +5,7 @@ def directors_totals(nds)
 total_gross = {}
 row_index = 0 
 
-  while row_index do
+  while row_index < directors_database.length do
     director_name = directors_database[row_index][:name]
     total_gross[director_name] = 0 
     column_index = 0 
